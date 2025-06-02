@@ -1,0 +1,15 @@
+Model Type,Experiment,Accuracy,F1,AUC
+Ghostbuster (Uncalibrated),In-Domain (wp),0.011439477040067524
+Ghostbuster (Uncalibrated),In-Domain (reuter),0.022992287244667675
+Ghostbuster (Uncalibrated),In-Domain (essay),0.012267247867730329
+Ghostbuster (Uncalibrated),In-Domain,0.00911990139668211
+Ghostbuster (Uncalibrated),Out-Domain (wp),0.052938175167270035
+Ghostbuster (Uncalibrated),Out-Domain (reuter),0.02134897076701314
+Ghostbuster (Uncalibrated),Out-Domain (essay),0.031115460646954616
+Ghostbuster (Calibrated),In-Domain (wp),0.011367791765577069
+Ghostbuster (Calibrated),In-Domain (reuter),0.016230624823748967
+Ghostbuster (Calibrated),In-Domain (essay),0.0023236936379974326
+Ghostbuster (Calibrated),In-Domain,0.00939270407751335
+Ghostbuster (Calibrated),Out-Domain (wp),0.05200897249699017
+Ghostbuster (Calibrated),Out-Domain (reuter),0.02248705699164636
+Ghostbuster (Calibrated),Out-Domain (essay),0.029768955421816054

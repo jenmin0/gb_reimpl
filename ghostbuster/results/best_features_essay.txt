@@ -1,0 +1,3 @@
+trigram-logprobs v-div tinyllama-logprobs v-< llama-logprobs s-var
+tinyllama-logprobs v-> llama-logprobs s-l2
+trigram-logprobs v-add tinyllama-logprobs s-max

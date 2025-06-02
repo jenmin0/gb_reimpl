@@ -1,0 +1,8 @@
+Model Type,Experiment,Accuracy,F1,AUC
+Perplexity-Only,In-Domain (wp),0.92987,0.926431,0.929351
+Perplexity-Only,In-Domain (reuter),0.937799,0.9375,0.937799
+Perplexity-Only,In-Domain (essay),0.982368,0.983133,0.98304
+Perplexity-Only,In-Domain,0.895833,0.896093,0.895875
+Perplexity-Only,Out-Domain (wp),0.727273,0.612546,0.718093
+Perplexity-Only,Out-Domain (reuter),0.779904,0.816733,0.779904
+Perplexity-Only,Out-Domain (essay),0.964736,0.967742,0.962567

@@ -1,0 +1,64 @@
+Model Type,Experiment,Accuracy,F1,AUC
+Ghostbuster (Depth One),In-Domain (wp),0.961039,0.959569,0.98949
+Ghostbuster (Depth One),In-Domain (reuter),0.983254,0.983133,0.993773
+Ghostbuster (Depth One),In-Domain (essay),0.997481,0.997625,0.999898
+Ghostbuster (Depth One),In-Domain,0.969167,0.969089,0.993038
+Ghostbuster (Depth One),Out-Domain (wp),0.87013,0.846626,0.981845
+Ghostbuster (Depth One),Out-Domain (reuter),0.961722,0.960976,0.989606
+Ghostbuster (Depth One),Out-Domain (essay),0.97733,0.978923,0.998752
+Ghostbuster (Depth Two),In-Domain (wp),0.987013,0.986595,0.998163
+Ghostbuster (Depth Two),In-Domain (reuter),0.992823,0.992771,0.998993
+Ghostbuster (Depth Two),In-Domain (essay),0.997481,0.997625,1.0
+Ghostbuster (Depth Two),In-Domain,0.988333,0.988391,0.998217
+Ghostbuster (Depth Two),Out-Domain (wp),0.924675,0.915452,0.992732
+Ghostbuster (Depth Two),Out-Domain (reuter),0.978469,0.977995,0.995604
+Ghostbuster (Depth Two),Out-Domain (essay),0.974811,0.976744,1.0
+Ghostbuster (Depth Three),In-Domain (wp),0.979221,0.978495,0.994894
+Ghostbuster (Depth Three),In-Domain (reuter),0.976077,0.976077,0.997665
+Ghostbuster (Depth Three),In-Domain (essay),0.997481,0.997625,0.99972
+Ghostbuster (Depth Three),In-Domain,0.978333,0.978441,0.996686
+Ghostbuster (Depth Three),Out-Domain (wp),0.948052,0.944444,0.987626
+Ghostbuster (Depth Three),Out-Domain (reuter),0.971292,0.970443,0.996268
+Ghostbuster (Depth Three),Out-Domain (essay),0.979849,0.981308,0.999007
+Ghostbuster (Depth Four),In-Domain (wp),0.98961,0.989247,0.998352
+Ghostbuster (Depth Four),In-Domain (reuter),0.992823,0.992771,0.999725
+Ghostbuster (Depth Four),In-Domain (essay),0.997481,0.997625,1.0
+Ghostbuster (Depth Four),In-Domain,0.981667,0.981697,0.997961
+Ghostbuster (Depth Four),Out-Domain (wp),0.922078,0.912791,0.994894
+Ghostbuster (Depth Four),Out-Domain (reuter),0.976077,0.97549,0.991415
+Ghostbuster (Depth Four),Out-Domain (essay),0.942065,0.948081,0.998625
+Ghostbuster (N-Gram Only),In-Domain (wp),0.924675,0.923483,0.967877
+Ghostbuster (N-Gram Only),In-Domain (reuter),0.949761,0.948403,0.988096
+Ghostbuster (N-Gram Only),In-Domain (essay),0.959698,0.962264,0.988719
+Ghostbuster (N-Gram Only),In-Domain,0.933333,0.932886,0.974129
+Ghostbuster (N-Gram Only),Out-Domain (wp),0.896104,0.887006,0.893311
+Ghostbuster (N-Gram Only),Out-Domain (reuter),0.916268,0.914425,0.951878
+Ghostbuster (N-Gram Only),Out-Domain (essay),0.939547,0.943662,0.980418
+Ghostbuster (N-Gram and tinyllama),In-Domain (wp),0.924675,0.923885,0.970903
+Ghostbuster (N-Gram and tinyllama),In-Domain (reuter),0.949761,0.948403,0.988027
+Ghostbuster (N-Gram and tinyllama),In-Domain (essay),0.959698,0.962085,0.990196
+Ghostbuster (N-Gram and tinyllama),In-Domain,0.94,0.939292,0.975179
+Ghostbuster (N-Gram and tinyllama),Out-Domain (wp),0.898701,0.887608,0.885287
+Ghostbuster (N-Gram and tinyllama),Out-Domain (reuter),0.933014,0.93,0.963485
+Ghostbuster (N-Gram and tinyllama),Out-Domain (essay),0.937028,0.941176,0.982327
+Ghostbuster (Random),In-Domain (wp),0.976623,0.975741,0.993894
+Ghostbuster (Random),In-Domain (reuter),0.9689,0.968215,0.995009
+Ghostbuster (Random),In-Domain (essay),0.994962,0.995238,0.999924
+Ghostbuster (Random),In-Domain,0.976667,0.976705,0.995047
+Ghostbuster (Random),Out-Domain (wp),0.958442,0.955307,0.979116
+Ghostbuster (Random),Out-Domain (reuter),0.966507,0.965686,0.993842
+Ghostbuster (Random),Out-Domain (essay),0.969773,0.972222,0.999593
+"Ghostbuster (Depth Three, No Handcrafted)",In-Domain (wp),0.976623,0.975871,0.993948
+"Ghostbuster (Depth Three, No Handcrafted)",In-Domain (reuter),0.983254,0.983213,0.997734
+"Ghostbuster (Depth Three, No Handcrafted)",In-Domain (essay),0.997481,0.997625,0.999643
+"Ghostbuster (Depth Three, No Handcrafted)",In-Domain,0.9775,0.977667,0.996536
+"Ghostbuster (Depth Three, No Handcrafted)",Out-Domain (wp),0.948052,0.944444,0.988086
+"Ghostbuster (Depth Three, No Handcrafted)",Out-Domain (reuter),0.971292,0.970443,0.996223
+"Ghostbuster (Depth Three, No Handcrafted)",Out-Domain (essay),0.979849,0.981308,0.998956
+Ghostbuster (No Symbolic),In-Domain (wp),0.903896,0.900804,0.954477
+Ghostbuster (No Symbolic),In-Domain (reuter),0.944976,0.94321,0.973169
+Ghostbuster (No Symbolic),In-Domain (essay),0.937028,0.940334,0.983244
+Ghostbuster (No Symbolic),In-Domain,0.928333,0.927731,0.969578
+Ghostbuster (No Symbolic),Out-Domain (wp),0.896104,0.896373,0.955017
+Ghostbuster (No Symbolic),Out-Domain (reuter),0.92823,0.924623,0.964561
+Ghostbuster (No Symbolic),Out-Domain (essay),0.942065,0.94431,0.98355

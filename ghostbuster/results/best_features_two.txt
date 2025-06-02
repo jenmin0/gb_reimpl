@@ -1,0 +1,13 @@
+trigram-logprobs v-> llama-logprobs s-avg
+tinyllama-logprobs v-< llama-logprobs s-var
+unigram-logprobs v-> tinyllama-logprobs s-l2
+unigram-logprobs v-mul llama-logprobs s-l2
+unigram-logprobs v-div trigram-logprobs s-max
+trigram-logprobs v-div unigram-logprobs s-min
+unigram-logprobs v-mul trigram-logprobs s-avg-top-25
+tinyllama-logprobs v-sub llama-logprobs s-l2
+tinyllama-logprobs v-< llama-logprobs s-avg
+unigram-logprobs v-> llama-logprobs s-avg
+unigram-logprobs v-add tinyllama-logprobs s-max
+unigram-logprobs v-mul llama-logprobs s-var
+unigram-logprobs s-avg-top-25

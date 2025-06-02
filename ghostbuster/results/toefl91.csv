@@ -1,0 +1,6 @@
+Model Type,Experiment,Accuracy,F1,AUC
+Ghostbuster,Out-Domain (toefl),0.8021978021978022
+Perplexity Only,Out-Domain (toefl),0.989010989010989
+RoBERTa,Out-Domain (toefl),0.945054945054945
+GPT Zero,Out-Domain (toefl),0.923077
+DetectGPT,Out-Domain (toefl),0.6373626373626373

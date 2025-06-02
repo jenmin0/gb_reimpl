@@ -1,0 +1,5 @@
+tinyllama-logprobs v-< llama-logprobs v-div trigram-logprobs s-var
+unigram-logprobs v-< trigram-logprobs v-mul tinyllama-logprobs s-var
+trigram-logprobs v-> tinyllama-logprobs v-div trigram-logprobs s-l2
+tinyllama-logprobs v-< llama-logprobs v-div tinyllama-logprobs s-len
+trigram-logprobs v-div unigram-logprobs v-add trigram-logprobs s-min

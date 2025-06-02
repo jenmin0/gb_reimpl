@@ -1,0 +1,10 @@
+Model Type,Experiment,Accuracy,F1,AUC
+Ghostbuster,Out-Domain (lang8),0.954,0.0,-1
+Perplexity Only,Out-Domain (lang8),0.996,0.0,-1
+RoBERTa,Out-Domain (lang8),0.998,0.0,-1
+Ghostbuster,Out-Domain (gptzero),0.89,0.895238,0.948
+Ghostbuster,Out-Domain (undetectable),0.53,0.69281,-1
+Ghostbuster,Out-Domain (ets),1.0,0.0,-1
+Ghostbuster,In-Domain (ets),1.0,0.0,-1
+Perplexity Only,Out-Domain (ets),1.0,0.0,-1
+RoBERTa,Out-Domain (ets),1.0,0.0,-1

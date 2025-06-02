@@ -1,0 +1,5 @@
+llama-logprobs s-avg
+tinyllama-logprobs s-var
+llama-logprobs s-min
+trigram-logprobs s-var
+trigram-logprobs s-min

@@ -1,0 +1,8 @@
+Model Type,Experiment,Accuracy,F1,AUC
+Ghostbuster (No Symbolic),In-Domain (wp),0.903896,0.900804,0.954477
+Ghostbuster (No Symbolic),In-Domain (reuter),0.944976,0.94321,0.973169
+Ghostbuster (No Symbolic),In-Domain (essay),0.937028,0.940334,0.983244
+Ghostbuster (No Symbolic),In-Domain,0.928333,0.927731,0.969578
+Ghostbuster (No Symbolic),Out-Domain (wp),0.896104,0.896373,0.955017
+Ghostbuster (No Symbolic),Out-Domain (reuter),0.92823,0.924623,0.964561
+Ghostbuster (No Symbolic),Out-Domain (essay),0.942065,0.94431,0.98355

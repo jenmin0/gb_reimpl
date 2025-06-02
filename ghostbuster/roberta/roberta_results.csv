@@ -1,0 +1,8 @@
+Model Type,Experiment,Accuracy,F1,AUC
+RoBERTa,In-Domain,0.964167,0.965627,0.999753
+RoBERTa,In-Domain (wp),0.987013,0.986667,0.999811
+RoBERTa,Out-Domain (wp),0.966234,0.963788,0.998487
+RoBERTa,In-Domain (reuter),0.758373,0.805395,0.998787
+RoBERTa,Out-Domain (reuter),0.758373,0.805395,0.998787
+RoBERTa,In-Domain (essay),0.906801,0.919037,0.999745
+RoBERTa,Out-Domain (essay),0.531486,0.693069,0.974077
