@@ -52,9 +52,9 @@ else:
 
 best_features_map = {}
 
-for file in os.listdir("ghostbuster/results"):
+for file in os.listdir("results"):
     if file.startswith("best_features"):
-        with open(f"ghostbuster/results/{file}") as f:
+        with open(f"results/{file}") as f:
             best_features_map[file[:-4]] = f.read().strip().split("\n")
 
 print("Loading trigram model...")
@@ -953,7 +953,7 @@ if __name__ == "__main__":
             scores.append(curr_score_vec)
 
         scores = np.array(scores)
-        np.save("ghostbuster/results/training_size.npy", scores)
+        np.save("results/training_size.npy", scores)
 
         plt.plot(train_sizes, scores[:, 0], label="In-Domain")
         plt.plot(train_sizes, scores[:, 1], label="Out-Domain (Claude)")
@@ -965,7 +965,7 @@ if __name__ == "__main__":
         plt.ylabel("F1 Score")
 
         plt.legend()
-        plt.savefig("ghostbuster/results/training_size.png")
+        plt.savefig("results/training_size.png")
 
     if args.ghostbuster_vary_document_size:
         token_sizes = [10, 25, 50, 100, 250, 500, 1000]
@@ -1059,7 +1059,7 @@ if __name__ == "__main__":
             print(curr_score_vec)
 
         scores = np.array(scores)
-        np.save("ghostbuster/results/document_size.npy", scores)
+        np.save("results/document_size.npy", scores)
 
         plt.plot(token_sizes, scores[:, 0], label="In-Domain")
         plt.plot(token_sizes, scores[:, 1], label="Out-Domain (Claude)")
@@ -1072,7 +1072,7 @@ if __name__ == "__main__":
 
         plt.legend()
 
-        plt.savefig("ghostbuster/results/document_size.png")
+        plt.savefig("results/document_size.png")
 
     if args.hyperparameter_search:
         data = normalize(get_featurized_data(best_features_map["best_features_three"]))
@@ -1182,7 +1182,7 @@ if __name__ == "__main__":
             return data
 
         perturb_char_data = get_perturb_data(
-            perturb_char_names, perturb_char_sizes, "ghostbuster/results/perturb_char.npy"
+            perturb_char_names, perturb_char_sizes, "results/perturb_char.npy"
         )
 
         for perturb_type in perturb_char_names:
@@ -1195,12 +1195,12 @@ if __name__ == "__main__":
         plt.xlabel("Number of Perturbations")
         plt.ylabel("F1 Score")
         plt.legend()
-        plt.savefig("ghostbuster/results/perturb_char.png")
+        plt.savefig("results/perturb_char.png")
 
         plt.clf()
 
         perturb_sent_data = get_perturb_data(
-            perturb_sent_names, perturb_sent_sizes, "ghostbuster/results/perturb_sent.npy"
+            perturb_sent_names, perturb_sent_sizes, "results/perturb_sent.npy"
         )
 
         for perturb_type in perturb_sent_names:
@@ -1213,7 +1213,7 @@ if __name__ == "__main__":
         plt.xlabel("Number of Perturbations")
         plt.ylabel("F1 Score")
         plt.legend()
-        plt.savefig("ghostbuster/results/perturb_sent.png")
+        plt.savefig("results/perturb_sent.png")
 
     if args.calibration:
 
@@ -1266,8 +1266,8 @@ if __name__ == "__main__":
 
     if len(results_table) > 1:
         # Write data to output csv file
-        with open("ghostbuster/results/"+args.output_file, "w") as f:
+        with open("results/"+args.output_file, "w") as f:
             writer = csv.writer(f)
             writer.writerows(results_table)
 
-        print(f"Saved results to {args.output_file}")
+        print(f"Saved results to {"results/"+args.output_file}")
