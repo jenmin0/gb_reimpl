@@ -18,6 +18,7 @@ This project is an **unofficial reimplementation** of Ghostbuster, adapted to:
 - Regenerating token log probability from source data using open models
 - Updating symbolic data and results
 
+The code is adapted from the original repository, with modifications and additions made to support new models.
 # Installation
 
 The installation process is the same as in the original project:
@@ -58,6 +59,8 @@ either clone <a href="https://github.com/jenmin0/gb-data-llama.git">[data]</a> o
 ## symbolic data
 
 extract `symbolic_data.zip`.
+
+##
 
 Then you can run with selection parameters:
 
