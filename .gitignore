@@ -40,4 +40,5 @@ logs/
 symbolic_data*
 t_data*
 data/
+*data/
 ghostbuster/roberta/models
